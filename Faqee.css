@@ -1,0 +1,260 @@
+*{
+	box-sizing: border-box;
+	margin: -5px 0 -5px 0;
+	padding: 0;
+}
+body{
+	background:linear-gradient(90deg ,#ddebe7,#cdd8ce);
+}
+
+li,a{
+	font-family: montserrat,sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: rgb(229, 222, 223);
+	text-decoration: none;
+	padding: 2px 3px;
+
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10px;
+	background:linear-gradient(90deg,#01011a,#070b1a,#101127);
+
+}
+
+.logo{
+	cursor: pointer;
+	color: lightblue;
+}
+
+.navlinks{
+list-style: none;
+}
+
+.navlinks , li{
+display: inline-block;
+padding: 0px 25px;
+
+}
+
+.navlinks , li{
+transition: 0.3 ease 0s;
+}
+
+.navlinks li a:hover{
+	border-radius: 20px;
+	background-color: #e1e5e3;
+	box-shadow: 0 0 20px white;
+	color: black;
+}
+button.cnt{
+	font-family: montserrat,sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	padding: 2px 3px;
+
+}
+button.cnt{
+	padding: 9px 25px;
+	background-color: #0d154d;
+	border:none;
+	border-radius: 50px;
+	outline: none;
+}
+button.cnt:hover{
+	background-color:#bfc1bb;
+	color:black;
+}
+
+div.bimg{
+	
+	background: url("pexels-pixabay-314703.jpg") ;
+	background-size: cover;
+	height: 1100px;
+		
+}
+ h1 , h3{
+	text-align: center;
+	color: white;
+}
+h1{
+font-size: 60px;
+font-family: cursive;
+transition: 0.5s;
+}
+
+h3{
+    font-size: 30px;
+	padding-top: 250px;
+	font-family:Georgia ,serif;
+	transition: 0.5s;
+}
+
+div.gallery{
+	margin:5px;
+	box-shadow: 0 0 20px grey;
+}
+button.exp{
+
+	padding: 15px 25px;
+	background-color: #01011a;
+	border:none;
+	border-radius: 50px;
+	color: white;
+	margin: 0 auto;
+	display: block;
+    }
+    button.exp:hover{
+    	background: transparent;
+    	border-style: solid ;
+    	border-width: 3px;
+    	border-color: #01011a;
+    	color: #101127;
+
+    }
+
+    div.fundi{
+
+    	text-align: center;
+    	color: white;
+    	height: 50px;
+    	background:linear-gradient(90deg,#cfcfc8,#000b13);
+    }
+   section{
+   	display: flex;
+   	box-sizing: border-box;
+   	box-shadow: 0 4px 2.5px;
+   	margin: 15px;
+
+
+   }
+   article{
+  
+   	padding: 20px;
+   }
+   h4{
+   	padding: 10px;
+   }
+   aside img{
+   	flex:1;
+   	
+    padding:20px;
+  
+   }
+   aside,img{
+   	width: 350px;
+   	height: 250px;
+   	padding-top: 10px;
+   }
+
+  .evB{
+   	background:linear-gradient(90deg ,#373b47,#4a4c58);
+   	height: 650px;
+   	
+   }
+
+  div .evText{
+  	color: white;
+  	text-align: center;
+  	padding-top: 250px;
+  	
+  }
+
+ .Cimg{
+  	background: url("pexels-joshua-welch-1624600.jpg") no-repeat center;
+  	background-size: cover;
+	  height: 650px;
+
+  }
+   h1.ContUs{
+   	padding-top: 10px;
+       color: white;
+       text-align: center;
+
+    }
+   div.hapsir{
+   	width: 50px;
+   	height: 10px;
+   	background-color:white;
+   	padding-left: 11%;
+   	margin-left: 45%;
+   	margin-top: 20px;
+   }
+   
+   form{
+   	margin-top: 60px;
+   }
+
+  .contform{
+  	display: block;
+  	width: 20%;
+  	box-sizing: border-box;
+  	margin-left:40%;
+  	margin-top: 2%;
+  	border:0;
+  	background:#111;
+  	padding: 15px 30px;
+  	color: white;
+  	outline: none;
+  	
+  }
+  .sub{
+  	width: 15%;
+  	box-sizing: border-box;
+  	margin-left:43%;
+  	margin-top: 2%;
+  	border:0;
+  	background:#fb4a48;
+  	padding: 10px 30px;
+  	color: white;
+  	border-radius: 5px;
+  	outline: none;
+  }
+  .sub:hover{
+  	background-color: #fb2c2d;
+  }
+
+
+
+    .vijat{
+    	display: none;
+    }
+    .vijat div{
+    	width: 30px;
+    	height: 3px;
+    	background-color:white;
+    	margin:5px;
+    	border-radius: 40px;
+    }
+    
+
+    @media screen and (max-width:1024px){
+
+    }
+
+    @media screen and (max-width: 630px){
+    	body{
+    		overflow: hidden;
+    	}
+         li ,a{
+         	position: absolute;
+         	right: 0px;
+         	height: 92vh;
+         	top:8vh;
+         	background-color: white;
+         	display: flex;
+         	flex-direction: column;
+         	align-items: center;
+         	width: 50%;
+         	transform: translateX(100%);
+
+         }
+          
+    
+    }
